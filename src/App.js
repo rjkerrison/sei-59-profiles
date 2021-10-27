@@ -3,11 +3,13 @@ import Robin from './components/Robin'
 import James from './components/James'
 import './App.css'
 import Monia from './components/Monia'
+import Home from './components/Home'
 
 function App() {
   return (
     <Router>
       <Switch>
+        <Route path='/' component={Home} />
         <Route path='/robin' component={Robin} />
         <Route path='/monia' component={Monia} />
         <Route path='/james' component={James} />

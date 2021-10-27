@@ -1,4 +1,4 @@
-const Robin = () => {
+const Ideen = () => {
   return (
     <>
       <h1>Ideen Sanei</h1>
@@ -6,4 +6,4 @@ const Robin = () => {
     </>
   )
 }
-export default Robin
+export default Ideen

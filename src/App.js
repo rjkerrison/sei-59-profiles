@@ -7,6 +7,7 @@ function App() {
     <Router>
       <Switch>
         <Route path='/robin' component={Robin} />
+        <Route path='/kirtan' component={Kirtan} />
       </Switch>
     </Router>
   )

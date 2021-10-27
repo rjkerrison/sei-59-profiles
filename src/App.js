@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import Robin from './components/Robin'
+import Simon from './components/Simon'
 import './App.css'
 
 function App() {
   return (
     <Router>
       <Switch>
-        <Route path='/robin' component={Robin} />
+        <Route path='/simon' component={Simon} />
       </Switch>
     </Router>
   )

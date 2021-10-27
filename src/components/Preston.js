@@ -2,7 +2,9 @@
 const Preston = () => {
     return (
         <div>
-            <p>Preston</p>
+            <h1>Preston</h1>
+            <p>Person</p>
         </div>
     )
 }
+export default Preston

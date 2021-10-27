@@ -3,6 +3,7 @@ import Robin from './components/Robin'
 import Arthur from './components/Arthur'
 import James from './components/James'
 import Monia from './components/Monia'
+import Ideen from './components/Ideen'
 import Home from './components/Home'
 import Nav from './components/Nav'
 
@@ -12,6 +13,7 @@ function App() {
     { component: Arthur, path: '/arthur', name: 'Arthur' },
     { component: Monia, path: '/monia', name: 'Monia' },
     { component: James, path: '/james', name: 'James' },
+    { component: Ideen, path: '/ideen', name: 'Ideen' },
   ]
 
   return (

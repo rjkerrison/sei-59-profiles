@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Robin from './components/Robin'
+import Emile from './components/Emile'
 import Arthur from './components/Arthur'
 import James from './components/James'
 import Monia from './components/Monia'
@@ -14,6 +15,7 @@ function App() {
     { component: Monia, path: '/monia', name: 'Monia' },
     { component: James, path: '/james', name: 'James' },
     { component: Ideen, path: '/ideen', name: 'Ideen' },
+    { component: Emile, path: '/emile', name: 'Emile' },
   ]
 
   return (

@@ -4,9 +4,39 @@ body {
   font-size: 3rem;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: white;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+  width: 100vw;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+nav {
+  width: 100vw;
+  ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    li {
+      flex-basis: 20rem;
+    }
+  }
+
+  a {
+    color: hsl(0, 66%, 80%);
+    &:visited {
+      color: hsl(0, 66%, 80%);
+    }
+    &:hover {
+      color: hsl(233, 66%, 80%);
+    }
+  }
 }

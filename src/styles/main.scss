@@ -29,14 +29,14 @@ nav {
       flex-basis: 20rem;
     }
   }
+}
 
-  a {
+a {
+  color: hsl(0, 66%, 80%);
+  &:visited {
     color: hsl(0, 66%, 80%);
-    &:visited {
-      color: hsl(0, 66%, 80%);
-    }
-    &:hover {
-      color: hsl(233, 66%, 80%);
-    }
+  }
+  &:hover {
+    color: hsl(233, 66%, 80%);
   }
 }

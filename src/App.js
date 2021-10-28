@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Robin from './components/Robin'
+import Preston from './components/Preston'
 import Emile from './components/Emile'
 import Arthur from './components/Arthur'
 import James from './components/James'
@@ -16,6 +17,7 @@ function App() {
     { component: James, path: '/james', name: 'James' },
     { component: Ideen, path: '/ideen', name: 'Ideen' },
     { component: Emile, path: '/emile', name: 'Emile' },
+    { component: Preston, path: '/preston', name: 'Preston' },
   ]
 
   return (

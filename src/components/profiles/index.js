@@ -1,10 +1,10 @@
-import Robin from './components/Robin'
-import Emile from './components/Emile'
-import Arthur from './components/Arthur'
-import James from './components/James'
-import Monia from './components/Monia'
-import Ideen from './components/Ideen'
-import Preston from './components/Preston'
+import Robin from './Robin'
+import Emile from './Emile'
+import Arthur from './Arthur'
+import James from './James'
+import Monia from './Monia'
+import Ideen from './Ideen'
+import Preston from './Preston'
 
 export const links = [
   { component: Robin, path: '/robin', name: 'Robin' },
